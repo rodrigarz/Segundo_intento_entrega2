@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\rodri\downloads\prueba2entregable2\main.cpp
+	<iostream>
+
+1671273248 source:c:\users\rodri\downloads\prueba2entregable2\src\buffer.cpp
+	"buffer.h"
+
+1671273248 c:\users\rodri\downloads\prueba2entregable2\include\buffer.h
+	<thread>
+	<chrono>
+	<iostream>
+	<mutex>
+	<condition_variable>
+
+1671273257 source:c:\users\rodri\downloads\prueba2entregable2\src\drone.cpp
+	<thread>
+	"drone.h"
+	<cmath>
+	<chrono>
+	<iostream>
+	"buffer.h"
+	<mutex>
+
+1671272945 c:\users\rodri\downloads\prueba2entregable2\include\drone.h
+	"buffer.h"
+
