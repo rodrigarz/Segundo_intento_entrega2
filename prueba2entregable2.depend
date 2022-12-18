@@ -24,3 +24,41 @@
 1671272945 c:\users\rodri\downloads\prueba2entregable2\include\drone.h
 	"buffer.h"
 
+1671354475 source:c:\users\rodri\downloads\prueba2entregable2\segundo_intento_entrega2\src\buffer.cpp
+	"buffer.h"
+
+1671354316 c:\users\rodri\downloads\prueba2entregable2\segundo_intento_entrega2\include\buffer.h
+	<thread>
+	<chrono>
+	<iostream>
+	<mutex>
+	<condition_variable>
+
+1671354191 source:c:\users\rodri\downloads\prueba2entregable2\segundo_intento_entrega2\src\drone.cpp
+	<thread>
+	"drone.h"
+	<cmath>
+	<chrono>
+	<iostream>
+	"buffer.h"
+	<mutex>
+
+1671272945 c:\users\rodri\downloads\prueba2entregable2\segundo_intento_entrega2\include\drone.h
+	"buffer.h"
+
+1670152038 source:c:\users\rodri\downloads\prueba2entregable2\segundo_intento_entrega2\src\productor.cpp
+	"drone.h"
+	"buffer.h"
+
+1671353222 source:c:\users\rodri\downloads\prueba2entregable2\segundo_intento_entrega2\main.cpp
+	<iostream>
+	"Drone.h"
+	"buffer.h"
+	<thread>
+
+1671353782 source:c:\users\rodri\downloads\prueba2entregable2\segundo_intento_entrega2\src\consumidor.cpp
+	"drone.h"
+	"buffer.h"
+	"iostream"
+	<ctime>
+

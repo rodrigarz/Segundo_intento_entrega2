@@ -18,10 +18,13 @@ void Drone::arrancar()
     {
         //mu.lock();
         mHeight = 0;
-        mDistancia = 0;
-        mRecorrido = 0;
-       // mBuffer->mete(Drone());
-       // mu.unlock();
+        mDistancia = 10;
+        mRecorrido = 20;
+        mBuffer->mete(mHeight);
+        mBuffer->mete(mBattery);
+        mBuffer->mete(mDistancia);
+        mBuffer->mete(mRecorrido);
+        //mu.unlock();
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         mBattery -= 1;
     }

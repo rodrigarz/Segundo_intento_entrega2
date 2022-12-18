@@ -11,9 +11,10 @@ const int ESPERA=200;   //Espera en ms
 
 using namespace std;
 
+class Drone;
 class BufferLimitado
 {
-    int *m_buf;         //puntero al inicio del buffer
+    double *m_buf;         //puntero al inicio del buffer
     int m_tam;          //tama o del buffer
     int m_out;          //indice al siguiente elemento que saldr  del buffer
     int m_in;           //indice a la posici n en la que entrar  el sig elemento
@@ -24,8 +25,8 @@ class BufferLimitado
 public:
     BufferLimitado(int tam);
     ~BufferLimitado();
-    void mete(int valor);
-    int saca();
+    void mete(double valor);
+    double saca();
 };
 
 #endif // BUFFER_H

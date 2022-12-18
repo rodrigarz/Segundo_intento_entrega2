@@ -39,6 +39,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Drone.cpp" />
 		<Unit filename="src/buffer.cpp" />
+		<Unit filename="src/consumidor.cpp" />
+		<Unit filename="src/productor.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
